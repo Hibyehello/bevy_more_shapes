@@ -13,7 +13,7 @@ exclude = ["/assets/screenshots/**"]
 
 [dependencies]
 # The parts of bevy relevant to meshes and shapes as well as math
-bevy = { version = "0.11", features = ["bevy_render"] }
+bevy = { version = "0.11", default-features = false,features = ["bevy_render"] }
 # This crate is used to triangulate polygons.
 triangulate = "0.2.0"
 
